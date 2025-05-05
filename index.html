@@ -4,37 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather in my city</title>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="weather-app">
-    <header>
-      <form>
-        <input type="search" placeholder="Enter city.." required  />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h1>Paris 🌖27°C</h1>
-      <p>
-        Tuesday 19:01 , clear sky
-        <br />
-        Humidity 17%, Wind 2.57km/h
-      </p>
-    </main>
-    <footer>
-      Built by
-      <a href="https://github.com/passiedaniels" target="_blank">Pascalia A.</a>
-      , code sourced on
-      <a href="https://github.com/passiedaniels/Myweather" target="_blank"
-        >Github</a>
-      >
-      and hosted on
-      <a href="https://cool-strudel-d00200.netlify.app/" target="_blank"
-        >Netlify</a>
-      >
-      </div>
-      
-    </footer>
+      <header>
+        <form class="form-type">
+          <input
+            class="search-button"
+            type="search"
+            placeholder="Enter city.."
+            required
+          />
+          <input class="submit-button" type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <h1>
+          <div class="city">Paris</div>
+          <div class="icon">
+            <span class="emoji">🌖</span>
+            <span class="temp">27°C</span>
+          </div>
+        </h1>
+        <p>
+          Tuesday 19:01 , clear sky
+          <br />
+          Humidity <span class="humid">17%</span> , Wind
+          <span class="wind-speed">2.57km/h</span>
+        </p>
+      </main>
+      <footer>
+        Built by
+        <a href="https://github.com/passiedaniels" target="_blank"
+          >Pascalia A.</a
+        >
+        , code sourced on
+        <a href="https://github.com/passiedaniels/Myweather" target="_blank"
+          >Github</a
+        >
+        > and hosted on
+        <a href="https://cool-strudel-d00200.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+        >
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,3 +1,48 @@
 body {
+  background-color: rgb(241, 237, 237);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.weather-app {
   background-color: white;
+  margin: auto;
+}
+.form-type {
+  padding: 8px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.search-button {
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.icon {
+  margin: 1%;
+  position: relative;
+  top: 15px;
+}
+.emoji {
+  font-size: 30px;
+}
+.temp {
+  font-size: 45px;
 }
