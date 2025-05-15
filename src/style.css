@@ -3,6 +3,10 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.city {
+  font-size: larger;
+}
+
 .weather-app {
   background-color: white;
   margin: auto;
@@ -49,4 +53,10 @@ h1 {
 
 .links {
   margin-top: 50px;
+}
+.humid {
+  color: red;
+}
+.wind-speed {
+  color: red;
 }

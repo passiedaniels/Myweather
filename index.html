@@ -9,19 +9,21 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="form-type">
+        <form class="form-type" id="form-type" >
           <input
+          id="search-button"
             class="search-button"
             type="search"
             placeholder="Enter city.."
             required
+            
           />
           <input class="submit-button" type="submit" value="search" />
         </form>
       </header>
       <main>
         <h1>
-          <div class="city">Paris</div>
+          <div class="city" ">Paris</div>
           <div class="icon">
             <span class="emoji">🌖</span>
             <span class="temp">27°C</span>
