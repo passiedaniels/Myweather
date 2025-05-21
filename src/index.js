@@ -7,5 +7,5 @@ function handleSearchSubmit(event) {
 }
 
 let formTypeElement = document.querySelector("#form-type");
-console.log(formTypeElement);
+
 formTypeElement.addEventListener("submit", handleSearchSubmit);
