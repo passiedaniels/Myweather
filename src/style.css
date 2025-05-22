@@ -5,6 +5,7 @@ body {
 
 .city {
   font-size: larger;
+  padding-bottom: 25px;
 }
 
 .weather-app {
@@ -12,7 +13,7 @@ body {
   margin: auto;
 }
 .form-type {
-  padding: 8px;
+  padding: 10px;
   border-radius: 10px;
   max-width: 600px;
 }
@@ -42,15 +43,15 @@ h1 {
 .icon {
   margin: 1%;
   position: relative;
-  top: 15px;
+  display: flex;
+  font-size: 24px;
 }
-.emoji {
-  font-size: 30px;
+.weather-icon {
+  width: 100px;
 }
 .temp {
-  font-size: 45px;
+  font-size: 70px;
 }
-
 .links {
   margin-top: 50px;
 }
@@ -59,4 +60,8 @@ h1 {
 }
 .wind-speed {
   color: red;
+}
+.unit {
+  vertical-align: top;
+  font-size: 25px;
 }
